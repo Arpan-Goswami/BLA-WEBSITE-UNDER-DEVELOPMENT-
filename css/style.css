@@ -967,3 +967,17 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.box-1{
+  width: 65rem;
+  height: 11rem;
+  background: #FFFFFF;
+background: radial-gradient(at center top, #FFFFFF, #D5D1DE);
+}
+
+.box-1:hover {
+  transform: scale(1.09); 
+  transition: transform 0.3s; 
+}
+.box-1 a:hover {
+  color: #2a764b; 
+}
