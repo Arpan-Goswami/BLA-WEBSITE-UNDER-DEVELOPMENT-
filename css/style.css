@@ -981,3 +981,11 @@ background: radial-gradient(at center top, #FFFFFF, #D5D1DE);
 .box-1 a:hover {
   color: #2a764b; 
 }
+.client_section{
+  background: #ffffff;
+  background:radial-gradient(at center top,#7cb2d3,#edf0f2)
+}
+
+.advisory_section{
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
