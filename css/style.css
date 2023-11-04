@@ -989,3 +989,91 @@ background: radial-gradient(at center top, #FFFFFF, #D5D1DE);
 .advisory_section{
   background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
 }
+.advisory_section .client_container {
+  width: 75%;
+  margin-top: 45px;
+}
+
+.advisory_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 5px;
+}
+
+.advisory_section.box .detail-box {
+  border: 1px solid #dddddd;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.advisory_section.box .client_id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advisory_section.box .client_id .img-box {
+  position: relative;
+  width: 75px;
+  height: 75px;
+}
+
+.advisory_section .box .client_id .img-box img {
+  width: 100%;
+}
+
+.advisory_section.box .client_id .name {
+  margin-left: 15px;
+}
+
+.advisory_section .box .client_id .name h6 {
+  color: #23242a;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.advisory_section .box .client_id .name p {
+  margin-bottom: 0;
+}
+
+.advisory_section .carousel-wrap {
+  margin: 0 auto;
+  position: relative;
+}
+
+.advisory_section .owl-carousel .owl-nav .owl-prev,
+.advisory_section .owl-carousel .owl-nav .owl-next {
+  width: 50px;
+  height: 50px;
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -15%;
+  outline: none;
+  background-color: #0a97b0;
+}
+
+.advisory_section .owl-carousel .owl-nav .owl-prev:hover,
+.advisory_section .owl-carousel .owl-nav .owl-next:hover {
+  background-color: #161825;
+}
+
+.advisory_section .owl-carousel .owl-nav .owl-prev {
+  top: 25%;
+  background-image: url(../images/prev.png);
+}
+
+.advisory_section .owl-carousel .owl-nav .owl-next {
+  top: calc(25% + 65px);
+  background-image: url(../images/next.png);
+}
+
